@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int volume(int height, int width, int length);
+int volume(int height, int width, int length,float volume);
 
 int main() {
     int box1Height, box1Width, box1Length;
@@ -28,6 +28,12 @@ int main() {
     cout << "Volume of Box is " << totalVolume << endl;
     
     return 0;
+  
+}
+// Implement the Volume() function here
+int volume(int height, int width, int length,float volume)
+
+{
+    volume=height*width*length;  // inplement the function to calculate the volume
 }
 
-// Implement the Volume() function here
