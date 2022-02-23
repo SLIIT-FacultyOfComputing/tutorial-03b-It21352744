@@ -2,8 +2,7 @@
 
 using namespace std;
 
-int volume(int height, int width, int length);
-
+int volume(int height, int width, int length,float volume1,float volume2)
 // 1. Define a structure called Box
 // have the integer data types Height, Width, Length
 struct box{
@@ -35,8 +34,7 @@ int main() {
     cin >>  box2Length;
     
     // 5. Replace the coding below to pass the Box type structure
-    totalVolume = volume(box1Height*box1Width*box1Length )
-             + volume( box2Height*box2Width*box2Length );
+    totalVolume = volume1+volume2;
     
     cout << "Volume of Box is " << totalVolume << endl;
     
